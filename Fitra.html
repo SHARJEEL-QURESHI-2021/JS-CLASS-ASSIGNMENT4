@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitra</title>
+</head>
+<body>
+    <script>
+        var gdm = 320;
+        var jow = 480;
+        var kjr = 2800;
+        var ksmsh = 6400;
+        var f = prompt("Choose Your Fitra Donation \nPlease Enter The Number \ngandum: (1) \njow: (2) \nKhajoor: (3)\nKishmish: (4)");
+        if(f == 1){
+            var qty = prompt("Enter The Number Of People");
+            var fp = qty * gdm;
+            document.write("<center>");
+            document.write("<h1>");
+            document.write("The Quantity Of Donation People is " + qty);
+            document.write("</h1>");
+            document.write("<br>");
+            document.write("<h3>");
+            document.write("Choosing Gandum");
+            document.write("<br>");    
+            document.write("<b>" + fp + "Rs" +"</b>");
+            document.write("</h3>");    
+            document.write("</center>");
+        }else if(f == 2){
+            var qty = prompt("Enter The Number Of People");
+            var fp = qty * jow;
+            document.write("<center>");
+            document.write("<h1>");
+            document.write("The Quantity Of Donation People is " + qty);
+            document.write("</h1>");
+            document.write("<br>");
+            document.write("<h3>");
+            document.write("Choosing Jow");
+            document.write("<br>");    
+            document.write("<b>" + fp + "Rs" +"</b>");
+            document.write("</h3>");    
+            document.write("</center>");
+        }else if(f == 3){
+            var qty = prompt("Enter The Number Of People");
+            var fp = qty * kjr;
+            document.write("<center>");
+            document.write("<h1>");
+            document.write("The Quantity Of Donation People is " + qty);
+            document.write("</h1>");
+            document.write("<br>");
+            document.write("<h3>");
+            document.write("Choosing Khajoor");
+            document.write("<br>");    
+            document.write("<b>" + fp + "Rs" +"</b>");
+            document.write("</h3>");    
+            document.write("</center>");
+        }else if(f == 4){
+            var qty = prompt("Enter The Number Of People");
+            var fp = qty * ksmsh;
+            document.write("<center>");
+            document.write("<h1>");
+            document.write("The Quantity Of Donation People is " + qty);
+            document.write("</h1>");
+            document.write("<br>");
+            document.write("<h3>");
+            document.write("Choosing Kishmish");
+            document.write("<br>");    
+            document.write("<b>" + fp + "Rs" +"</b>");
+            document.write("</h3>");    
+            document.write("</center>");
+        }else{
+            document.write("<center>");
+            document.write("<h1>");
+            document.write("Please Choose Right Category");
+            document.write("</h1>");
+            document.write("</center>");
+        }
+
+    </script>
+</body>
+</html>
